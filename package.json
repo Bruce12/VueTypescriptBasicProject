@@ -1,0 +1,38 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --inline --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruce12/mynotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruce12/mynotes/issues"
+  },
+  "homepage": "https://github.com/Bruce12/mynotes#readme",
+  "dependencies": {
+    "source-map-loader": "^0.2.3",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "vue": "^2.5.2",
+    "vue-class-component": "^6.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "ts-loader": "^3.1.0",
+    "typescript": "^2.5.3",
+    "vue-loader": "^13.3.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

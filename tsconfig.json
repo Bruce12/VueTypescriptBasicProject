@@ -1,0 +1,20 @@
+{
+  "compilerOptions":{
+  	"outDir":"./built/",
+		"sourceMap":true,
+		"strict":true,
+		"noImplicitReturns":true,
+		"module":"es2015",
+		"moduleResolution":"node",
+		"target":"es5",
+		"removeComments": true,
+		"suppressExcessPropertyErrors": true,
+		"declaration": true,
+		"allowSyntheticDefaultImports":true,
+		"experimentalDecorators": true
+  },
+  "include":[
+  	"./src/**/*"
+	],
+	"compileOnSave": false
+}
