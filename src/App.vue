@@ -17,13 +17,13 @@ export default class App extends Vue {
   msg:number = 123
   helloMsg = 90 - this.propMessage
   greet(){
-      alert('hello js')
+      alert('hello ts')
   }
   get computedMsg(){
-      return "ddw"
+      console.log('method')
   }
   created(){
-      console.log('okoko')
+      console.log('ele created')
   }
   
 }
