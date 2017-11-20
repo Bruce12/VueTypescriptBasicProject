@@ -1,6 +1,6 @@
 # Vue+Typescript
 
-## useage
+## usage
 
 - npm install
 - npm run dev
